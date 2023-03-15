@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+
+.projectBody {
+  width: 90vw;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+  padding: 1vw;
+}
+
+.projectContainer {
+  border: 2px solid white;
+  margin: 1%;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projectName {
+  font-size: 1.5vw;
+  margin: 1%;
+}
+
+.usersAuthed {
+  display: flex;
+  flex-wrap: wrap;
+  color: lavender;
+  width: 10%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.userName {
+  font-size: 1vw;
+  margin: 1% 2%;
+}
+
+.hwSets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hwSet {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  width: 25vw;
+  margin: 2.5%;
+}
+
+.hwName {
+  margin: 1% 5%;
+  font-size: 1vw;
+}
+
+.hwQty {
+  font-size: 1vw;
+  margin: 1% 5%;
+
+}
+
+.inputHwqty {
+  margin: 1%;
+}
